@@ -24,7 +24,7 @@ main {
     width: 100%;
     background-color: tan;
 
-    // Keeps absolutely positioned children from flying out of the main element -- https://webdesign.tutsplus.com/tutorials/the-quirks-of-css-grid-and-absolute-positioning--cms-31437
+    /* Keeps absolutely positioned children from flying out of the main element -- https://webdesign.tutsplus.com/tutorials/the-quirks-of-css-grid-and-absolute-positioning--cms-31437 */
     position: relative;
 
     display: grid;
@@ -67,7 +67,7 @@ main > * {
     }
 }
 
-// is there a better way to avoid weird properties on the border between scree
+/* is there a better way to avoid weird properties on the border between screen */
 @media screen and (min-width: 1031px) {
 
     main > div.aside-wrapper {
@@ -80,8 +80,8 @@ main > * {
     }
 
     main > div > aside {
-         // this couples the height of the aside to whatever grid element is directly to the right
-        // grid-column: expansion-left;
+        /* this couples the height of the aside to whatever grid element is directly to the right */
+        /* grid-column: expansion-left; */
 
         visibility: visible;
         background-color: white;
