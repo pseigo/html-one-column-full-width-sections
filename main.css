@@ -12,7 +12,9 @@ body {
 
 blockquote {
   font-style: italic;
-  color: #404040;
+  font-size: 1.05rem;
+  line-height: 1.35rem;
+  color: #363636;
   border-left: 4px solid #939393ab;
   padding-left: 9px;
   margin: 0.5rem 1px;
