@@ -10,6 +10,14 @@ body {
   font-size: 3em;
 }
 
+blockquote {
+  font-style: italic;
+  color: #404040;
+  border-left: 4px solid #939393ab;
+  padding-left: 9px;
+  margin: 0.5rem 1px;
+}
+
 div.gallery {
   display: flex;
   flex-wrap: wrap;
