@@ -1,4 +1,4 @@
-# HTML One Column, Full-Width Sections
+# Responsive, One Column Layout with Full-Width Sections
 
 A tiny example I made while developing the theme for my personal website.
 
