@@ -20,6 +20,13 @@ blockquote {
   margin: 0.5rem 1px;
 }
 
+div.quote-attribution {
+  font-size: 0.95rem;
+  color: #5e5e5e;
+  padding: 1.25rem;
+  padding-left: 0.56rem;
+}
+
 div.gallery {
   display: flex;
   flex-wrap: wrap;
